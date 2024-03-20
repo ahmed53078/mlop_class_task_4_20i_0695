@@ -1,0 +1,7 @@
+build:
+	docker build -t my-model-app .
+
+run:
+	docker run -p 8080:8080 my-model-app
+rmi:
+	docker rmi my-model-app
